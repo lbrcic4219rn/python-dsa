@@ -1,4 +1,4 @@
-# LeetCode & NeetCode Solutions
+# Python LeetCode Solutions
 
 A collection of solutions to various LeetCode problems organized by algorithm categories and data structures.
 

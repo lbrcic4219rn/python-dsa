@@ -5,7 +5,7 @@ class Solution:
 
         groups = [0] * 26
 
-        for i in range(len(s)): 
+        for i in range(len(s)):
             groups[ord(s[i]) - ord('a')] += 1
             groups[ord(t[i]) - ord('a')] -= 1
 

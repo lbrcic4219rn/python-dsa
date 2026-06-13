@@ -1,6 +1,7 @@
 from typing import Optional
 from LinkedList.ListNode import ListNode
 
+
 class Solution:
     def reorderList(self, head: Optional[ListNode]) -> None:
         slow, fast = head, head.next

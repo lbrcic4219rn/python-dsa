@@ -1,6 +1,7 @@
 from typing import Optional
 from Trees.TreeNode import TreeNode
 
+
 class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         if root is None:

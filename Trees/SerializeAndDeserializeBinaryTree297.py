@@ -24,7 +24,7 @@ class Codec:
 
         def dfs():
             nonlocal i
-            if vals[index] == "N":
+            if vals[i] == "N":
                 i += 1
                 return None
 

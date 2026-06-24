@@ -8,6 +8,3 @@ class Solution:
                 offset = i
             dp[i] = 1 + dp[i - offset]
         return dp
-
-if __name__ == '__main__':
-    print(Solution().countBits(10))

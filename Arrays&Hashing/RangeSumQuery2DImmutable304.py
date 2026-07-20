@@ -17,7 +17,6 @@ class NumMatrix:
                         - self.prefix[i - 1][j - 1]
                 )
 
-
     def sumRegion(self, row1: int, col1: int, row2: int, col2: int) -> int:
         bottomRight = self.prefix[row2 + 1][col2 + 1]
         topRight = self.prefix[row1][col2 + 1]

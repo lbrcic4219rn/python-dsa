@@ -6,10 +6,10 @@ class Solution:
         stack = []
 
         for asteroid in asteroids:
-            while stack[-1] > 0 > asteroid:
+            while stack and stack[-1] > 0 > asteroid:
                 if stack[-1] + asteroid > 0:
                     break
-                if stack[-1] + asteroid == 0
+                if stack[-1] + asteroid == 0:
                     stack.pop()
                     break
                 stack.pop()

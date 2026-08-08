@@ -6,5 +6,5 @@ class Solution:
         counts = Counter(nums)
         res = 0
         for v in counts.values():
-            res += sum(range(v))
+            res += v * (v - 1) // 2
         return res

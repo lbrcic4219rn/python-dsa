@@ -8,4 +8,3 @@ class Solution:
         for v in counts.values():
             res += v * (v - 1) // 2
         return res
-    

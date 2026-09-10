@@ -13,4 +13,3 @@ class Solution:
         for _, name in sortedPeople:
             res.append(name)
         return res
-      

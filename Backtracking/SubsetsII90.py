@@ -5,6 +5,7 @@ class Solution:
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
         nums.sort()
         res = []
+
         def dfs(i, currSeq):
             res.append(currSeq[:])
 
